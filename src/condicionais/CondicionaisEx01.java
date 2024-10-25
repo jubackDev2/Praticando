@@ -7,6 +7,8 @@ public class CondicionaisEx01 {
     public static void main(String[] args) {
 
 
+
+
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
@@ -20,7 +22,7 @@ public class CondicionaisEx01 {
         System.out.printf("NOTA FINAL = %.1f%n", notaFinal);
 
         if (notaFinal < 60){
-            System.out.println("SITUAÇÃO: REPROVADO");
+            System.out.println("SITUAÇÃO: REPROVADO. Lembre-se: cada erro é uma oportunidade de aprendizado. Não desista!");
         }else {
             System.out.println("SITUAÇÃO: APROVADO, PARABÉNS");
         }
