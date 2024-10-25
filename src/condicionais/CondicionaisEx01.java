@@ -19,6 +19,12 @@ public class CondicionaisEx01 {
 
         System.out.printf("NOTA FINAL = %.1f%n", notaFinal);
 
+        if (notaFinal < 60){
+            System.out.println("SITUAÇÃO: REPROVADO");
+        }else {
+            System.out.println("SITUAÇÃO: APROVADO, PARABÉNS");
+        }
+
 
 
 
