@@ -23,8 +23,6 @@ public class CondicionaisEx01 {
 
         if (notaFinal < 60){
             System.out.println("SITUAÇÃO: REPROVADO. Lembre-se: cada erro é uma oportunidade de aprendizado. Não desista!");
-        }else {
-            System.out.println("SITUAÇÃO: APROVADO, PARABÉNS");
         }
 
 
