@@ -1,4 +1,4 @@
-package condicionais;
+package Condicionais;
 
 public class CondicionaisEx05 {
     public static void main(String[] args) {

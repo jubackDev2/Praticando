@@ -1,4 +1,4 @@
-package condicionais;
+package Condicionais;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package condicionais;
+package Condicionais;
 
 import java.util.Scanner;
 
@@ -7,6 +7,8 @@ public class CondicionaisEx06 {
 
 
         /*
+
+
 
          Faça um programa que leia o valor do salário bruto mensal do usuário
          e calcule o IMPOSTO DE RENDA a ser pago, com base  em 5 faixas.
@@ -64,7 +66,7 @@ public class CondicionaisEx06 {
            deducao = 0;
         }
         impostoMensal = salario * (aliquota/100)- deducao;  // porque dividimos o valor da aliquota por 100? porque a aliquota está com o valor absoluto
-        impostoAnual = impostoMensal * 12;
+        impostoAnual = impostoMensal * 12; // para sabaer o imposto anual, precisamos multiplicar o imposto mensal por 12
 
         // exibição (Saída)
 

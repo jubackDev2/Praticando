@@ -1,4 +1,4 @@
-package condicionais;
+package Condicionais;
 
 public class CondicionaisEx02 {
     // mais de duas possibilidades
