@@ -34,6 +34,8 @@ public class CondicionaisEx06 {
         double impostoMensal;
         double impostoAnual;
 
+
+
         // obtenção dos valores (ENTRADA)
 
         Scanner reader = new Scanner(System.in);
@@ -43,9 +45,33 @@ public class CondicionaisEx06 {
         // Calculo do imposto (Processamento)
 
         if (salario > 4664.68) { // faixa 5
+           aliquota = 27.5;
+           deducao = 869.36;
 
         }else if (salario <= 4664.68 && salario >= 3751.06){ // faixa 4
+            aliquota = 22.5;
+            deducao = 636.13;
 
+        } else if (salario <= 3751.05 && salario >= 2826.66) { // faixa 3
+           aliquota = 15;
+           deducao = 354.80;
+
+        } else if (salario <= 2826.65 && salario >= 1903.99) { // faixa 2
+          aliquota = 7.5;
+          deducao = 142.80;
+        }else {
+           aliquota = 0;
+           deducao = 0;
         }
+        impostoMensal = salario * (aliquota/100)- deducao;  // porque dividimos o valor da aliquota por 100? porque a aliquota está com o valor absoluto
+        impostoAnual = impostoMensal * 12;
+
+        // exibição (Saída)
+
+        System.out.println("\nSalario: = R$"+salario);
+        System.out.println("Aliquota = R$"+aliquota);
+        System.out.println("imposto mensal: = R$"+impostoMensal);
+        System.out.println("imposto anual: = R$"+impostoAnual);
+
     }
 }
